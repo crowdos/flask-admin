@@ -1,0 +1,16 @@
+Source: flask-admin
+Section: web
+Priority: optional
+Maintainer: Mohammed Sameer <msameer@foolab.org>
+Build-Depends: debhelper (>= 9),
+	       python-setuptools,
+	       python2.7,
+	       dh-python
+Standards-Version: 3.9.6
+
+Package: python-flask-admin
+Architecture: all
+Section: utils
+Depends: ${python:Depends}
+Description: flask-admin
+ This package provides flask-admin
